@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <style>
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 630px;
+        width: 150px;
+        border-right: 1px solid blue;
+        background-color: coral;
+        padding: 10px;
+    }
+    .sidebar a{
+       color:darkgreen;
+    }
+    .sidebar_item{
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+    .sidebar_item:hover{
+background-color: white;
+border-radius: 4px;
+    }
+    .sideous {
+        visibility: hidden;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <button class="but" type="button"><a href="">sidebar</a></button>
+    <div class="sidebar" "sideous">
+            <a href="" class="remove">
+                    <i class="fas fa-times"></i>
+                </a>
+        <div class="sidebar_section"></div>
+        <div class="sidebar_item"><a href="">Home</a></div>
+        <div class="sidebar_item"><a href="">Friends</a></div>
+        <div class="sidebar_item"><a href="">Answers</a></div>
+        <div class="sidebar_item"><a href="">Groups</a></div>
+        <div class="sidebar_item"><a href="">Photo</a></div>
+        <div class="sidebar_item"><a href="">Music</a></div>
+        <div class="sidebar_item"><a href="">Games</a></div>
+
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+<script src="ind.js"></script>
+</body>
+</html>
